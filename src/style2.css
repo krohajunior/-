@@ -1,0 +1,316 @@
+body {
+    min-height: 360px;
+    font-family: "Minion Pro Semibold", serif;
+}
+
+a {
+    color:rgb(239, 232, 216);
+    
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+}
+
+.header-title {
+    text-align: center;
+    background-color:rgb(6, 53, 47); 
+    color:rgb(239, 232, 216);
+    font-family:"Minion Pro Semibold", serif;
+    font-size:20px;
+    height: 45px; 
+    
+    
+}
+
+.dropdown-menu {
+    background-color: rgb(19, 84, 76);
+    width: 100px;
+    
+}
+.dropdown-item {
+    color: rgb(239, 232, 216);
+}
+.dropdown-item li:hover {
+    color: red; 
+}
+
+.header-menu {
+    background-color:  rgb(19, 84, 76);
+     
+}
+.nav-link {
+    list-style-type: none;
+}
+
+.nav-item a:hover {
+     color: rgb(239, 232, 216);
+    
+    border-bottom: 1px solid rgb(239, 232, 216);
+}
+
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lang {
+    margin-left: 830px;
+    
+}
+
+.carousel-item.first {
+    height: 1100px;
+}
+
+.about {
+    background-color: rgb(19, 84, 76);
+    color: rgb(239, 232, 216);
+    text-align: center;
+    font-family: "Minion Pro Semibold", serif;
+    font-size: 1.25rem;
+    justify-content: center;
+    height: 430px;
+    
+    
+}
+.about-title {
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    
+    
+}
+.about-text {
+    width: 1120px;
+    height: 360px;
+    margin: 0 auto;
+    text-indent: 50px; 
+    
+}
+
+.services-container {
+    height: 200px;
+}
+
+
+.services-content {
+    /* border: 5px solid red; */
+    width: 1200px;
+    height: 876px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+}
+
+.services-title {
+    font-family:"Minion Pro Semibold", serif;
+    font-size:30px;
+    font-weight:900;
+    margin-top: 30px;
+    color:rgb(19, 84, 76);
+    text-align: center;
+    /* height: 40px; */
+    vertical-align: top;
+    padding-bottom: 30px;
+}
+.services-icon {
+    padding: 19px;
+    width: 108px;
+    height: 108px;
+    border: 3px solid rgb(19, 84, 76);
+    border-radius: 20px;
+    margin-top: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: block;
+    color: green;
+    box-sizing: border-box;
+}
+.services-undericon-text {
+    margin-top: 15px;
+    /* border: 5px solid blue; */
+    width: 150px;
+    height: 70px;
+    text-align: center;   
+    margin: 0 auto;
+    margin-top: 25px;
+    color:rgb(19, 84, 76);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.room-title {
+    text-align: center;
+    background-color:rgb(19, 84, 76); 
+    height: 80px;  
+    font-size: 30px;
+    margin: 0 auto;
+    color: rgb(239, 232, 216);
+    font-family:"Minion Pro Semibold", serif;
+    padding-top: 20px;
+    padding-bottom: 10px;  
+}
+.room-content {
+    height: 1035px;
+    background-color:  rgb(19, 84, 76);
+}
+.room-container {
+    height: 480px;
+    width: 550px;
+    border: 17px solid rgb(6, 53, 47);
+    margin: 13px;
+    border-top: 0px;
+}
+.room-subtitle {
+    padding-top: 10px;
+    height: 50px;
+    text-align: center;
+    color:rgb(239, 232, 216);
+    background-color:rgb(6, 53, 47);
+    font-family: "Minion Pro Semibold", serif;
+    font-size: 24px;
+    font-weight :500;
+    
+    line-height :28.8px;
+}
+.room-row {
+    display: flex;
+    justify-content: center;
+}
+.carousel-item .rooms {
+    height: 410px;
+    
+}
+
+.fotogallery-content {
+    height: 790px;
+    margin-top: 10px;
+    
+
+}
+.fotogallery-border {
+    height: 754px;
+    border: 20px solid rgb(19, 84, 76);
+    width: 1110px;
+    margin: 0 auto;
+
+}
+
+.carousel-item .fgallery {
+   height: 720px;
+   width: 1110px; 
+}
+
+
+.fotogallery-title {
+    font-family:"Minion Pro Semibold", serif;
+    font-size:30px;
+    font-weight:900;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 200px;
+    color:rgb(19, 84, 76);
+    text-align: center;
+    height: 30px;
+
+
+
+}
+.footer-content {
+    
+    width: 100%;
+    display: flex;
+    background-color:rgb(19, 84, 76); 
+    min-height: 220px;
+    font-family:"Minion Pro Semibold", serif;
+    font-size:20px;
+    text-decoration: solid;
+    justify-content: center;
+}
+.content1 {
+    color:rgb(239, 232, 216);
+    min-height: 200px;
+    width: 350px;
+    font-family:"Minion Pro Semibold", serif;
+    font-size:20px;
+    margin: 10px;
+    margin-left: 700px;
+    margin-right: 60px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.content2 {
+    
+    min-height: 200px;
+    width: 350px;
+    color:rgb(239, 232, 216);
+    margin: 10px;
+    
+    margin-right: 580px;
+    text-align:right ;
+    margin-top: 20px;
+}
+.signature {
+    text-align: center;
+    background-color:rgb(6, 53, 47); 
+    color:rgb(239, 232, 216);
+    font-family:"Minion Pro Semibold", serif;
+    font-size:20px;
+    height: 30px;
+}
+.footer-title {
+    text-align: center;
+    background-color:rgb(19, 84, 76); 
+    height: 80px;  
+    font-size: 30px;
+    margin: 0 auto;
+    color:rgb(239, 232, 216);
+    font-family:"Minion Pro Semibold", serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+
+}
+.footer-map {
+    text-align: center;
+    margin-top: 1px;
+}
+.h2 {
+    padding: 10px;
+
+}
+.contacts {
+    color:rgb(239, 232, 216);
+    font-family:"Minion Pro Semibold", serif;
+font-size:20px;
+margin-top: 10px;
+margin-bottom: 10px;
+
+
+
+}
+.contacts a {
+text-decoration: underline;
+}
+
+.contacts1  {
+    color:rgb(239, 232, 216);
+    font-family:"Minion Pro Semibold", serif;
+font-size:24px;
+font-weight:500;
+margin-top: 10px;
+margin-bottom: 10px;
+line-height:28.8px;
+}

@@ -1,0 +1,152 @@
+.mainblock {
+}
+.a {
+  text-decoration: none;
+}
+.mainblock__header {
+    }
+    .mainblock__title {
+      
+      
+     height: 40px;
+      
+    text-align: center;
+     background-color: chartreuse;
+    }
+.mainblock__menu {
+  background-color: rgb(51, 99, 4);
+  
+  height: 140px;
+}
+.menu__items {
+  
+}
+.lang-menu{
+  display: flex;
+  width: 100px;
+  text-decoration: none;
+  position: relative;
+}
+
+.lang-menu ul {
+  display: nne;
+margin: 0;
+padding: 0;
+background-color: darkcyan;
+}
+
+.lang-menu ul:hover {
+  display: inline-block;
+}
+
+.lang-menu ul li {
+  list-style: none ;
+  
+}
+.lang-menu ul li a {
+  width: 140px;
+  display: block;
+  padding: 5px 10px;
+
+}
+.lang-menu ul li a:hover {
+  background-color: #fff;
+
+}
+
+
+.selected-lang{
+  cursor: pointer;
+  display: flex;
+  justify-content: right;
+}
+.menu__list {
+    list-style-type: none ;
+
+  display: flex;
+  margin: 0 auto;
+justify-content: space-betwen;
+}
+.menu__link {
+}
+    
+}
+.wrapper {
+}
+.mainblock {
+}
+.mainblock__title {
+}
+.mainblock__menu { 
+  
+  
+
+}
+.menu__items {
+}
+.menu__list {
+}
+.menu__link {
+  text-decoration: none;
+}
+.menu__link a:hover {
+  text-decoration: underline;
+.carousel {
+}
+.slide {
+}
+.carousel-inner {
+}
+.carousel-item {
+}
+.active {
+}
+.d-block {
+}
+.w-100 {
+}
+.carousel-control-prev {
+}
+.carousel-control-prev-icon {
+}
+.carousel-control-next {
+}
+.carousel-control-next-icon {
+}
+.content {
+}
+.content-title {
+}
+.content-about {
+}
+.container {
+}
+.row {
+}
+.col-3 {
+}
+.icon {
+}
+.undericon-text {
+
+}
+.footer {
+}
+
+.MAP {
+
+}
+
+
+.footer {
+  background-color: cornflowerblue;
+}
+.f-title {
+  background-color: cornflowerblue;
+}
+.f-row {
+}
+.column {
+}
+.MAP {
+}
